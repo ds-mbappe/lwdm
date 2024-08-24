@@ -1,17 +1,17 @@
 import { Text, SafeAreaView, ScrollView, StyleSheet } from 'react-native'
 import React from 'react'
 
-const Account = () => {
+const Explore = () => {
   return (
     <SafeAreaView style={{ flex: 1 }}>
       <ScrollView contentContainerStyle={styles.scrollview}>
-        <Text>Account</Text>
+        <Text>Explore</Text>
       </ScrollView>
     </SafeAreaView>
   )
 }
 
-export default Account
+export default Explore
 
 const styles = StyleSheet.create({
   scrollview: {
